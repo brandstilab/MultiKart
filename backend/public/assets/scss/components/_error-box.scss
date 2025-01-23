@@ -1,0 +1,38 @@
+/**=====================
+       Error CSS start
+  ==========================**/
+.box-wrapper {
+  position: relative;
+}
+
+.error-box {
+  border: 1px solid $secondary-color;
+  padding: 13px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: $card-box-shadow;
+  position: relative;
+  width: 100%;
+  margin-bottom: 18px;
+
+  svg {
+    width: 40px;
+    height: 40px;
+    fill: $secondary-color;
+  }
+
+  h4 {
+    font-size: 18px;
+    color: $secondary-color;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: $title-color;
+    line-height: 1;
+    margin-top: 5px;
+  }
+}

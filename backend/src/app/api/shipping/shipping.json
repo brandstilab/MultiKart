@@ -1,0 +1,42 @@
+[
+    {
+        "id": 2,
+        "status": 1,
+        "country_id": 4,
+        "created_by_id": "1",
+        "created_at": "2024-07-06T11:09:30.000000Z",
+        "updated_at": "2024-07-06T11:09:30.000000Z",
+        "deleted_at": null,
+        "country": {
+            "id": 4,
+            "name": "Afghanistan",
+            "currency": "afghani",
+            "currency_symbol": "؋",
+            "iso_3166_2": "AF",
+            "iso_3166_3": "AFG",
+            "calling_code": "93",
+            "flag": "AF.png"
+        },
+        "shipping_rules": []
+    },
+    {
+        "id": 1,
+        "status": 1,
+        "country_id": 8,
+        "created_by_id": "1",
+        "created_at": "2024-05-13T11:01:20.000000Z",
+        "updated_at": "2024-05-13T11:01:20.000000Z",
+        "deleted_at": null,
+        "country": {
+            "id": 8,
+            "name": "Albania",
+            "currency": "lek",
+            "currency_symbol": "Lek",
+            "iso_3166_2": "AL",
+            "iso_3166_3": "ALB",
+            "calling_code": "355",
+            "flag": "AL.png"
+        },
+        "shipping_rules": []
+    }
+]

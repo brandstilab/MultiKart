@@ -1,0 +1,193 @@
+/**=====================
+    Notification CSS start
+==========================**/
+.notification-setting {
+    li {
+        padding: 14px;
+        border-radius: 0;
+        position: relative;
+        background-color: #f8f8f8;
+        text-transform: capitalize;
+
+        h4 {
+            margin-bottom: 6px;
+            color: $grey-3;
+            font-size: calc(15px + (17 - 15) * ((100vw - 320px) / (1920 - 320)));
+            font-weight: 500;
+        }
+
+        h5 {
+            color: $grey-9;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+        }
+
+        .delete-icon {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            font-size: 18px;
+            color: #222;
+
+            i {
+                padding: 2px;
+                background-color: $white;
+                border-radius: 3px;
+                box-shadow: 0 0 8px #e3e3e3;
+            }
+        }
+
+        &.unread {
+            z-index: 0;
+            border-left: 2px solid var(--theme-color);
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--theme-color);
+                opacity: 0.07;
+                z-index: -1;
+            }
+
+            h5 {
+                color: #777;
+            }
+        }
+
+        +li {
+            margin-top: 18px;
+        }
+    }
+
+    &.notification-page {
+        .notice-section {
+            .icon-box {
+                width: 60px;
+                height: 63px;
+            }
+
+            p {
+                display: inline-block;
+                margin-bottom: -7px;
+            }
+
+            .notice-box {
+                width: calc(100% - 60px);
+                padding-top: 6px;
+            }
+
+            .notice-content {
+                align-items: flex-start;
+                width: 100%;
+            }
+        }
+
+        &.notification-setting {
+            li {
+                padding: 0;
+                margin-block: 14px;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.notice-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &.warning {
+        .icon-box {
+            background-color: rgba(255, 165, 59, 0.1);
+            color: #FFA53B;
+
+            .ri-error-warning-line {
+                &:before {
+                    content: "\ea21";
+                }
+            }
+        }
+
+        .close-icon {
+            i {
+                color: #FFA53B;
+            }
+        }
+    }
+
+    .notice-box {
+        padding-left: 15px;
+        width: calc(100% - 70px);
+    }
+
+    .icon-box {
+        width: 70px;
+        height: 73px;
+        @include flex_common;
+        background-color: #faeae7a6;
+        font-size: 30px;
+        color: #ff6161;
+        border-radius: 0;
+    }
+
+    .notice-content {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        padding: 20px;
+        width: 91%;
+    }
+
+    &::after {
+        position: absolute;
+        left: -20px;
+        @include center(vertical);
+        width: 3px;
+        height: 86%;
+        background-color: #0da487;
+    }
+
+    h3 {
+        color: $dark-card-background;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 0;
+        margin-top: 3px;
+        color: $theme-body-sub-title-color;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .close-icon {
+        padding-right: 14px;
+
+        i {
+            font-size: 22px;
+            color: #ff6161;
+        }
+    }
+}

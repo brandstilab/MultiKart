@@ -1,0 +1,667 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 2,
+            "product_id": 15,
+            "consumer_id": 34,
+            "store_id": 4,
+            "review_image_id": null,
+            "rating": 4,
+            "description": "Product Quality Is Good As Expexpected",
+            "created_at": "2024-06-25T10:22:38.000000Z",
+            "review_image": null,
+            "consumer": {
+                "id": 34,
+                "name": "Rhoda Mayer",
+                "email": "rhoda@mail.com",
+                "profile_image_id": null,
+                "role": {
+                    "id": 2,
+                    "name": "consumer",
+                    "guard_name": "web",
+                    "system_reserve": "1"
+                },
+                "profile_image": null,
+                "wallet": {
+                    "id": 5,
+                    "consumer_id": 34,
+                    "balance": 0
+                },
+                "point": {
+                    "id": 6,
+                    "consumer_id": 34,
+                    "balance": 100
+                }
+            },
+            "product": {
+                "id": 15,
+                "name": "Classic Jacket",
+                "short_description": "Elevate your style with our Classic Jacket. Timeless design meets modern comfort, crafted with premium materials for durability. Versatile for any occasion, this jacket is your ultimate wardrobe staple.",
+                "type": "simple",
+                "unit": "1 Item",
+                "quantity": 25,
+                "price": 8,
+                "sale_price": 7.84,
+                "discount": 2,
+                "is_featured": 0,
+                "is_sale_enable": 0,
+                "is_return": 1,
+                "is_trending": 0,
+                "is_approved": 1,
+                "is_external": 0,
+                "external_url": null,
+                "external_button_text": null,
+                "sale_starts_at": null,
+                "sale_expired_at": null,
+                "sku": "FASH08",
+                "stock_status": "in_stock",
+                "product_thumbnail_id": 70,
+                "social_share": 1,
+                "slug": "classic-jacket",
+                "status": 1,
+                "store_id": 4,
+                "created_by_id": "1",
+                "tax_id": 1,
+                "product_type": "physical",
+                "license_type": null,
+                "preview_url": null,
+                "brand_id": 8,
+                "wholesale_price_type": null,
+                "orders_count": 1,
+                "reviews_count": 1,
+                "can_review": false,
+                "order_amount": 8.23,
+                "is_wishlist": false,
+                "rating_count": 4,
+                "review_ratings": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "related_products": [],
+                "cross_sell_products": [],
+                "wholesales": [],
+                "variations": [],
+                "product_thumbnail": {
+                    "id": 70,
+                    "name": "fashion_71",
+                    "file_name": "fashion_71.jpg",
+                    "mime_type": "image/jpeg",
+                    "disk": "public",
+                    "created_by_id": "1",
+                    "created_at": "2024-05-04T12:14:31.000000Z",
+                    "asset_url": "/storage/70/fashion_71.jpg",
+                    "original_url": "/assets/images/product.png"
+                },
+                "product_galleries": [
+                    {
+                        "id": 72,
+                        "name": "fashion_73",
+                        "file_name": "fashion_73.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:14:31.000000Z",
+                        "asset_url": "/storage/72/fashion_73.jpg",
+                        "original_url": "/assets/images/product.png"
+                    },
+                    {
+                        "id": 71,
+                        "name": "fashion_72",
+                        "file_name": "fashion_72.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:14:31.000000Z",
+                        "asset_url": "/storage/71/fashion_72.jpg",
+                        "original_url": "/assets/images/product.png"
+                    },
+                    {
+                        "id": 70,
+                        "name": "fashion_71",
+                        "file_name": "fashion_71.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:14:31.000000Z",
+                        "asset_url": "/storage/70/fashion_71.jpg",
+                        "original_url": "/assets/images/product.png"
+                    }
+                ],
+                "attributes": [],
+                "brand": {
+                    "id": 8,
+                    "name": "Glamour Gaze",
+                    "slug": "glamour-gaze",
+                    "status": 1,
+                    "brand_image": null,
+                    "brand_meta_image": null,
+                    "brand_banner": null
+                },
+                "wishlist": [
+                    {
+                        "id": 85,
+                        "product_id": 15,
+                        "consumer_id": 33,
+                        "created_at": "2024-06-25T08:39:10.000000Z",
+                        "updated_at": "2024-06-25T08:39:10.000000Z",
+                        "deleted_at": null
+                    }
+                ],
+                "reviews": [
+                    {
+                        "id": 2,
+                        "product_id": 15,
+                        "consumer_id": 34,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 4,
+                        "description": "Product Quality Is Good As Expexpected",
+                        "created_at": "2024-06-25T10:22:38.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 34,
+                            "name": "Rhoda Mayer",
+                            "email": "rhoda@mail.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 5,
+                                "consumer_id": 34,
+                                "balance": 0
+                            },
+                            "point": {
+                                "id": 6,
+                                "consumer_id": 34,
+                                "balance": 100
+                            }
+                        }
+                    }
+                ]
+            },
+            "store": {
+                "id": 4,
+                "store_name": "Trendy Fashion",
+                "description": "Our products can be easily paired with different outfits, making them versatile accessories that can be worn for various occasions, from casual to formal events.  Despite the high quality and trendy designs, our Fashion & Accessories are priced competitively, providing customers with great value for their money.",
+                "slug": "trendy-fashion",
+                "store_logo_id": null,
+                "store_cover_id": null,
+                "country_id": 840,
+                "state_id": 3759,
+                "city": "Denver",
+                "address": "26, Starts Hollow Colony",
+                "pincode": "80014",
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "youtube": null,
+                "pinterest": null,
+                "hide_vendor_email": 0,
+                "hide_vendor_phone": 0,
+                "vendor_id": 6,
+                "created_by_id": "1",
+                "status": 1,
+                "is_approved": 1,
+                "created_at": "2024-05-04T06:05:58.000000Z",
+                "updated_at": "2024-05-06T11:35:17.000000Z",
+                "deleted_at": null,
+                "orders_count": 4,
+                "reviews_count": 2,
+                "products_count": 35,
+                "product_images": [
+                    "/assets/images/placeholder/product.png",
+                    "/assets/images/placeholder/product.png",
+                    "/assets/images/placeholder/product.png"
+                ],
+                "order_amount": 281,
+                "rating_count": 4.5,
+                "store_logo": null,
+                "store_cover": null,
+                "vendor": {
+                    "id": 6,
+                    "name": "Lorlie Gilmore",
+                    "email": "lorlie.store@example.com",
+                    "country_code": "1",
+                    "phone": 6305875463,
+                    "status": 1,
+                    "role": {
+                        "id": 3,
+                        "name": "vendor",
+                        "guard_name": "web",
+                        "system_reserve": "1"
+                    },
+                    "profile_image": null,
+                    "wallet": null,
+                    "point": null
+                },
+                "country": {
+                    "id": 840,
+                    "name": "United States"
+                },
+                "state": {
+                    "id": 3759,
+                    "name": "Colorado"
+                },
+                "reviews": [
+                    {
+                        "id": 1,
+                        "product_id": 16,
+                        "consumer_id": 2,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 5,
+                        "description": "\"Wow! This fashion product exceeded all my expectations! From the moment I opened the package, I could tell it was something special. The quality of the materials is outstanding, and the attention to detail in the craftsmanship is truly impressive. Not only does it look fabulous, but it feels incredibly comfortable too. I've received so many compliments whenever I wear it!",
+                        "created_at": "2024-06-21T10:07:31.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 2,
+                            "name": "john due",
+                            "email": "john.customer@example.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 2,
+                                "consumer_id": 2,
+                                "balance": 8.46
+                            },
+                            "point": {
+                                "id": 3,
+                                "consumer_id": 2,
+                                "balance": 1970
+                            }
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "product_id": 15,
+                        "consumer_id": 34,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 4,
+                        "description": "Product Quality Is Good As Expexpected",
+                        "created_at": "2024-06-25T10:22:38.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 34,
+                            "name": "Rhoda Mayer",
+                            "email": "rhoda@mail.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 5,
+                                "consumer_id": 34,
+                                "balance": 0
+                            },
+                            "point": {
+                                "id": 6,
+                                "consumer_id": 34,
+                                "balance": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "product_id": 16,
+            "consumer_id": 2,
+            "store_id": 4,
+            "review_image_id": null,
+            "rating": 5,
+            "description": "\"Wow! This fashion product exceeded all my expectations! From the moment I opened the package, I could tell it was something special. The quality of the materials is outstanding, and the attention to detail in the craftsmanship is truly impressive. Not only does it look fabulous, but it feels incredibly comfortable too. I've received so many compliments whenever I wear it!",
+            "created_at": "2024-06-21T10:07:31.000000Z",
+            "review_image": null,
+            "consumer": {
+                "id": 2,
+                "name": "john due",
+                "email": "john.customer@example.com",
+                "profile_image_id": null,
+                "role": {
+                    "id": 2,
+                    "name": "consumer",
+                    "guard_name": "web",
+                    "system_reserve": "1"
+                },
+                "profile_image": null,
+                "wallet": {
+                    "id": 2,
+                    "consumer_id": 2,
+                    "balance": 8.46
+                },
+                "point": {
+                    "id": 3,
+                    "consumer_id": 2,
+                    "balance": 1970
+                }
+            },
+            "product": {
+                "id": 16,
+                "name": "Versatile Shacket",
+                "short_description": "Introducing the ultimate fusion of style and comfort: the Shacket Combo. This versatile garment combines the warmth of a jacket with the laid-back feel of a shirt, perfect for effortless everyday wear.",
+                "type": "simple",
+                "unit": "1 Item",
+                "quantity": 13,
+                "price": 10,
+                "sale_price": 7.7,
+                "discount": 23,
+                "is_featured": 0,
+                "is_sale_enable": 0,
+                "is_return": 1,
+                "is_trending": 0,
+                "is_approved": 1,
+                "is_external": 0,
+                "external_url": null,
+                "external_button_text": null,
+                "sale_starts_at": null,
+                "sale_expired_at": null,
+                "sku": "FASH09",
+                "stock_status": "in_stock",
+                "product_thumbnail_id": 79,
+                "social_share": 1,
+                "slug": "versatile-shacket",
+                "status": 1,
+                "store_id": 4,
+                "created_by_id": "1",
+                "tax_id": 1,
+                "product_type": "physical",
+                "license_type": null,
+                "preview_url": null,
+                "brand_id": 6,
+                "wholesale_price_type": null,
+                "orders_count": 1,
+                "reviews_count": 1,
+                "can_review": false,
+                "order_amount": 31.52,
+                "is_wishlist": false,
+                "rating_count": 5,
+                "review_ratings": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "related_products": [],
+                "cross_sell_products": [],
+                "wholesales": [],
+                "variations": [],
+                "product_thumbnail": {
+                    "id": 79,
+                    "name": "fashion_81",
+                    "file_name": "fashion_81.jpg",
+                    "mime_type": "image/jpeg",
+                    "disk": "public",
+                    "created_by_id": "1",
+                    "created_at": "2024-05-04T12:20:54.000000Z",
+                    "asset_url": "/storage/79/fashion_81.jpg",
+                    "original_url": "/assets/images/product.png"
+                },
+                "product_galleries": [
+                    {
+                        "id": 81,
+                        "name": "fashion_83",
+                        "file_name": "fashion_83.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:20:54.000000Z",
+                        "asset_url": "/storage/81/fashion_83.jpg",
+                        "original_url": "/assets/images/product.png"
+                    },
+                    {
+                        "id": 80,
+                        "name": "fashion_82",
+                        "file_name": "fashion_82.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:20:54.000000Z",
+                        "asset_url": "/storage/80/fashion_82.jpg",
+                        "original_url": "/assets/images/product.png"
+                    },
+                    {
+                        "id": 79,
+                        "name": "fashion_81",
+                        "file_name": "fashion_81.jpg",
+                        "mime_type": "image/jpeg",
+                        "disk": "public",
+                        "created_by_id": "1",
+                        "created_at": "2024-05-04T12:20:54.000000Z",
+                        "asset_url": "/storage/79/fashion_81.jpg",
+                        "original_url": "/assets/images/product.png"
+                    }
+                ],
+                "attributes": [],
+                "brand": {
+                    "id": 6,
+                    "name": "VogueVista",
+                    "slug": "voguevista",
+                    "status": 1,
+                    "brand_image": null,
+                    "brand_meta_image": null,
+                    "brand_banner": null
+                },
+                "wishlist": [],
+                "reviews": [
+                    {
+                        "id": 1,
+                        "product_id": 16,
+                        "consumer_id": 2,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 5,
+                        "description": "\"Wow! This fashion product exceeded all my expectations! From the moment I opened the package, I could tell it was something special. The quality of the materials is outstanding, and the attention to detail in the craftsmanship is truly impressive. Not only does it look fabulous, but it feels incredibly comfortable too. I've received so many compliments whenever I wear it!",
+                        "created_at": "2024-06-21T10:07:31.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 2,
+                            "name": "john due",
+                            "email": "john.customer@example.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 2,
+                                "consumer_id": 2,
+                                "balance": 8.46
+                            },
+                            "point": {
+                                "id": 3,
+                                "consumer_id": 2,
+                                "balance": 1970
+                            }
+                        }
+                    }
+                ]
+            },
+            "store": {
+                "id": 4,
+                "store_name": "Trendy Fashion",
+                "description": "Our products can be easily paired with different outfits, making them versatile accessories that can be worn for various occasions, from casual to formal events.  Despite the high quality and trendy designs, our Fashion & Accessories are priced competitively, providing customers with great value for their money.",
+                "slug": "trendy-fashion",
+                "store_logo_id": null,
+                "store_cover_id": null,
+                "country_id": 840,
+                "state_id": 3759,
+                "city": "Denver",
+                "address": "26, Starts Hollow Colony",
+                "pincode": "80014",
+                "facebook": "https://www.facebook.com/",
+                "twitter": "https://twitter.com/",
+                "instagram": "https://www.instagram.com/",
+                "youtube": null,
+                "pinterest": null,
+                "hide_vendor_email": 0,
+                "hide_vendor_phone": 0,
+                "vendor_id": 6,
+                "created_by_id": "1",
+                "status": 1,
+                "is_approved": 1,
+                "created_at": "2024-05-04T06:05:58.000000Z",
+                "updated_at": "2024-05-06T11:35:17.000000Z",
+                "deleted_at": null,
+                "orders_count": 4,
+                "reviews_count": 2,
+                "products_count": 35,
+                "product_images": [
+                    "/assets/images/placeholder/product.png",
+                    "/assets/images/placeholder/product.png",
+                    "/assets/images/placeholder/product.png"
+                ],
+                "order_amount": 281,
+                "rating_count": 4.5,
+                "store_logo": null,
+                "store_cover": null,
+                "vendor": {
+                    "id": 6,
+                    "name": "Lorlie Gilmore",
+                    "email": "lorlie.store@example.com",
+                    "country_code": "1",
+                    "phone": 6305875463,
+                    "status": 1,
+                    "role": {
+                        "id": 3,
+                        "name": "vendor",
+                        "guard_name": "web",
+                        "system_reserve": "1"
+                    },
+                    "profile_image": null,
+                    "wallet": null,
+                    "point": null
+                },
+                "country": {
+                    "id": 840,
+                    "name": "United States"
+                },
+                "state": {
+                    "id": 3759,
+                    "name": "Colorado"
+                },
+                "reviews": [
+                    {
+                        "id": 1,
+                        "product_id": 16,
+                        "consumer_id": 2,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 5,
+                        "description": "\"Wow! This fashion product exceeded all my expectations! From the moment I opened the package, I could tell it was something special. The quality of the materials is outstanding, and the attention to detail in the craftsmanship is truly impressive. Not only does it look fabulous, but it feels incredibly comfortable too. I've received so many compliments whenever I wear it!",
+                        "created_at": "2024-06-21T10:07:31.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 2,
+                            "name": "john due",
+                            "email": "john.customer@example.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 2,
+                                "consumer_id": 2,
+                                "balance": 8.46
+                            },
+                            "point": {
+                                "id": 3,
+                                "consumer_id": 2,
+                                "balance": 1970
+                            }
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "product_id": 15,
+                        "consumer_id": 34,
+                        "store_id": 4,
+                        "review_image_id": null,
+                        "rating": 4,
+                        "description": "Product Quality Is Good As Expexpected",
+                        "created_at": "2024-06-25T10:22:38.000000Z",
+                        "review_image": null,
+                        "consumer": {
+                            "id": 34,
+                            "name": "Rhoda Mayer",
+                            "email": "rhoda@mail.com",
+                            "profile_image_id": null,
+                            "role": {
+                                "id": 2,
+                                "name": "consumer",
+                                "guard_name": "web",
+                                "system_reserve": "1"
+                            },
+                            "profile_image": null,
+                            "wallet": {
+                                "id": 5,
+                                "consumer_id": 34,
+                                "balance": 0
+                            },
+                            "point": {
+                                "id": 6,
+                                "consumer_id": 34,
+                                "balance": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "first_page_url": "",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "",
+    "per_page": 5,
+    "prev_page_url": null,
+    "to": 2,
+    "total": 2
+}

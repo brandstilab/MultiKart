@@ -1,0 +1,36 @@
+{
+  "name": "multikart-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon — experimental-modules server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^2.16.1",
+    "apollo-server-express": "^2.15.0",
+    "body-parser": "^1.19.0",
+    "class-transformer": "^0.2.3",
+    "easygraphql-format-error": "0.0.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "fuse.js": "^3.4.3",
+    "graphql": "^14.6.0",
+    "graphql-tools": "^6.0.10",
+    "graphql-yoga": "^1.18.3",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.4",
+    "react-slide-toggle": "^0.3.5"
+  }
+}

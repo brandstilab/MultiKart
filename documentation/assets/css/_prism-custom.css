@@ -1,0 +1,22 @@
+/*=====================
+  3.21  Prism Custom Css
+  ==========================*/
+
+@layer components {
+  pre[class*="language-"] {
+   padding: 16px;
+    code{
+      &.language-html{
+        color: gray;
+      }
+    } 
+  }
+
+  code[class*="language-"],
+  pre[class*="language-"] { 
+    background-color: beige;
+    line-height: 1;
+
+  }
+
+}

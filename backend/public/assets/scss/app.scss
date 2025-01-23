@@ -1,0 +1,20 @@
+/*! -----------------------------------------------------------------------------------
+    Template Name: Fastkart Admin
+    Template URI: http://admin.pixelstrap.com/Fastkart/theme
+    Description: This is Admin theme
+    Author: Pixelstrap
+    Author URI: https://themeforest.net/user/pixelstrap
+----------------------------------------------------------------------------------- !*/
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~react-toastify/dist/ReactToastify.min.css';
+
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+@import '~remixicon/fonts/remixicon.css';
+
+@import '~react-date-range/dist/styles.css';
+@import '~react-date-range/dist/theme/default.css';
+
+@import './style.scss';

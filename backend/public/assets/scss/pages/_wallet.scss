@@ -1,0 +1,152 @@
+/**=====================
+    Wallet CSS start
+==========================**/
+.wallet-sec {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (max-width: 1511px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+
+  input {
+    width: 40%;
+
+    @media (max-width: 1511px) {
+      width: 100%;
+    }
+  }
+
+  .wallet-amount {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    @media (max-width: 1511px) {
+      width: auto;
+    }
+
+    h5 {
+      margin-top: 5px;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+
+  .wallet-icon {
+    width: 50px;
+    height: 50px;
+    @include flex_common;
+
+    i {
+      font-size: 40px;
+      color: var(--theme-color);
+    }
+
+    svg {
+      width: 40px;
+      height: 40px;
+      fill: var(--theme-color);
+    }
+  }
+
+  .btn-sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.wallet-search {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .custom-select {
+    width: 75%;
+  }
+
+  .btn-animation {
+    width: calc(25% - 15px);
+  }
+}
+
+.badge-color-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 9px;
+
+  li {
+    width: auto;
+
+    .selection-box {
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 0;
+      overflow: hidden;
+      position: relative;
+      border: 1px solid #ddd;
+      cursor: pointer;
+
+      body.dark-only & {
+        border-color: $dark-card-border;
+      }
+
+      input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include pseudowh;
+        opacity: 0;
+        margin: 0;
+
+        &:checked {
+          ~label {
+            &::before {
+              width: calc(100% - 2px);
+              border: 2px solid #ececec;
+              height: calc(100% - 2px);
+
+              body.dark-only & {
+                border-color: #1c2128;
+              }
+            }
+          }
+        }
+      }
+
+      label {
+        @include pseudowh;
+        margin: 0;
+        cursor: pointer;
+
+        &::before {
+          border: 0;
+          @include pseudowh;
+          @include center(both);
+          border-radius: 0;
+          background-color: transparent;
+          transition: all 0.08s ease-in-out;
+          @include pos;
+        }
+
+        &::after {
+          content: unset;
+        }
+      }
+    }
+  }
+}

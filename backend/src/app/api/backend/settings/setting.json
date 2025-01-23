@@ -1,0 +1,188 @@
+{
+    "values": {
+        "general": {
+            "light_logo_image_id": 3,
+            "dark_logo_image_id": 4,
+            "tiny_logo_image_id": 5,
+            "favicon_image_id": 2,
+            "site_title": "FastKart Marketplace: Where Vendors Shine Together",
+            "site_tagline": "Shop Unique, Sell Exceptional – FastKart's Multi-Vendor Universe.",
+            "default_timezone": "Asia/Kolkata",
+            "default_currency_id": 1,
+            "admin_site_language_direction": "ltr",
+            "min_order_amount": 0,
+            "min_order_free_shipping": 50,
+            "product_sku_prefix": "FS",
+            "mode": "light-only",
+            "copyright": "Copyright 2023 © Fastkart theme by pixelstrapp",
+            "light_logo_image": {
+                "id": 3,
+                "collection_name": "attachment",
+                "name": "logo-white",
+                "file_name": "logo-white.png",
+                "mime_type": "image/png",
+                "disk": "public",
+                "conversions_disk": "public",
+                "size": "6079",
+                "created_by_id": "1",
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "original_url": "https://laravel.pixelstrap.net/fastkart/storage/3/logo-white.png"
+            },
+            "dark_logo_image": {
+                "id": 4,
+                "collection_name": "attachment",
+                "name": "logo-dark",
+                "file_name": "logo-dark.png",
+                "mime_type": "image/png",
+                "disk": "public",
+                "conversions_disk": "public",
+                "size": "4997",
+                "created_by_id": "1",
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "original_url": "https://laravel.pixelstrap.net/fastkart/storage/4/logo-dark.png"
+            },
+            "favicon_image": {
+                "id": 2,
+                "collection_name": "attachment",
+                "name": "favicon",
+                "file_name": "favicon.png",
+                "mime_type": "image/png",
+                "disk": "public",
+                "conversions_disk": "public",
+                "size": "416",
+                "created_by_id": "1",
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "original_url": "https://laravel.pixelstrap.net/fastkart/storage/2/favicon.png"
+            },
+            "tiny_logo_image": {
+                "id": 5,
+                "collection_name": "attachment",
+                "name": "tiny-logo",
+                "file_name": "tiny-logo.png",
+                "mime_type": "image/png",
+                "disk": "public",
+                "conversions_disk": "public",
+                "size": "448",
+                "created_by_id": "1",
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "original_url": "https://laravel.pixelstrap.net/fastkart/storage/5/tiny-logo.png"
+            },
+            "default_currency": {
+                "id": 1,
+                "code": "USD",
+                "symbol": "$",
+                "no_of_decimal": 2,
+                "exchange_rate": "1.00",
+                "symbol_position": "before_price",
+                "thousands_separator": "comma",
+                "decimal_separator": "comma",
+                "system_reserve": "1",
+                "status": 1,
+                "created_by_id": null,
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "deleted_at": null
+            }
+        },
+        "activation": {
+            "multivendor": true,
+            "point_enable": true,
+            "coupon_enable": true,
+            "wallet_enable": true,
+            "stock_product_hide": false,
+            "store_auto_approve": true,
+            "product_auto_approve": true
+        },
+        "wallet_points": {
+            "signup_points": 100,
+            "min_per_order_amount": 100,
+            "point_currency_ratio": 30,
+            "reward_per_order_amount": 10
+        },
+        "analytics": {
+            "facebook_pixel": {
+                "status": true,
+                "pixel_id": "1354077145459856"
+            },
+            "google_analytics": {
+                "measurement_id": "G-RB17BJ6VZB"
+            }
+        },
+        "delivery": {
+            "default_delivery": 1,
+            "default": {
+                "title": "Standard Delivery",
+                "description": "Approx 5 to 7 Days"
+            },
+            "same_day_delivery": true,
+            "same_day": {
+                "title": "Express Delivery",
+                "description": "Schedule"
+            },
+            "same_day_intervals": [
+                {
+                    "title": "Morning",
+                    "description": "8.00 AM - 12.00 AM"
+                },
+                {
+                    "title": "Noon",
+                    "description": "12.00 PM - 2.00 PM"
+                },
+                {
+                    "title": "Afternoon",
+                    "description": "02.00 PM - 05.00 PM"
+                },
+                {
+                    "title": "Evening",
+                    "description": "05.00 PM - 08.00 PM"
+                }
+            ]
+        },
+        "maintenance": {
+            "title": "We'll be back Soon..",
+            "maintenance_mode": false,
+            "maintenance_image_id": 6,
+            "description": "We are busy to updating our store for you.",
+            "maintenance_image": {
+                "id": 6,
+                "collection_name": "attachment",
+                "name": "maintainance",
+                "file_name": "maintainance.jpg",
+                "mime_type": "image/jpeg",
+                "disk": "public",
+                "conversions_disk": "public",
+                "size": "111275",
+                "created_by_id": "1",
+                "created_at": "2023-08-24T08:16:03.000000Z",
+                "updated_at": "2023-08-24T08:16:03.000000Z",
+                "original_url": "https://laravel.pixelstrap.net/fastkart/storage/6/maintainance.jpg"
+            }
+        },
+        "payment_methods": [
+            {
+                "name": "cod",
+                "status": true
+            },
+            {
+                "name": "paypal",
+                "status": true
+            },
+            {
+                "name": "stripe",
+                "status": true
+            },
+            {
+                "name": "mollie",
+                "status": true
+            },
+            {
+                "name": "razorpay",
+                "status": true
+            }
+        ]
+    }
+}

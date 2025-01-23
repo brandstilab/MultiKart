@@ -1,0 +1,54 @@
+/**=====================
+    instagram css
+==========================**/
+.instagram-box {
+    position: relative;
+    background-color: var(--theme-color);
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+
+    .overlay {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: var(--theme-color);
+        top: 0;
+        text-align: center;
+        @include flex_common;
+        transform: scale(3) rotate(90deg);
+
+        svg {
+            width: unset;
+            height: unset;
+            font-size: calc(40px + (60 - 40) * ((100vw - 320px) / (1920 - 320)));
+            color: $white;
+        }
+    }
+
+    &:hover {
+        .overlay {
+            opacity: 0.5;
+            transition: 0.5s ease;
+            transform: scale(1) rotate(0deg);
+        }
+    }
+}
+
+.instagram-slider {
+    .slick-slider {
+        .slick-list {
+            margin: 0;
+
+            .slick-slide {
+                >div {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+/**=====================
+    other css start
+==========================**/
+/* Brand logo CSS start */
+.logo-block {
+    a {
+        &:focus {
+            outline: none;
+        }
+    }
+
+    img {
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: 0.5s ease;
+        margin: 0 auto;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            filter: grayscale(0);
+            opacity: 1;
+            transition: 0.5s ease;
+        }
+    }
+}
+
+/* detail */
+.product-left-title {
+    h3 {
+        font-weight: 600;
+        color: #222;
+        text-transform: capitalize;
+        max-width: 200px;
+        line-height: 36px;
+    }
+
+    p {
+        line-height: 27px;
+        font-size: 18px;
+    }
+
+    &.right-content {
+        text-align: right;
+
+        h3 {
+            margin-left: auto;
+        }
+    }
+}

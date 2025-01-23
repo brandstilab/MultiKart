@@ -1,0 +1,170 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 21,
+            "license_key": "8d4ce731-dd89-46ed-a546-5ba0a4ef4500",
+            "product_id": 515,
+            "variation_id": null,
+            "purchased_by_id": 2,
+            "created_at": "2024-06-21T10:15:20.000000Z",
+            "status": 1,
+            "item_name": "Megabot AI - React Native ChatGPT | Admob | Subscription Plan | Chat, Writing & Image Generator",
+            "purchased_by": {
+                "name": "john due",
+                "email": "john.customer@example.com"
+            }
+        },
+        {
+            "id": 22,
+            "license_key": "1aa0f8ea-9c02-4715-973c-be3e22e5c940",
+            "product_id": 527,
+            "variation_id": null,
+            "purchased_by_id": 2,
+            "created_at": "2024-06-21T10:15:20.000000Z",
+            "status": 1,
+            "item_name": "Go Grafix",
+            "purchased_by": {
+                "name": "john due",
+                "email": "john.customer@example.com"
+            }
+        },
+        {
+            "id": 11,
+            "license_key": "lc-001",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 12,
+            "license_key": "lc-002",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 13,
+            "license_key": "lc-003",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 14,
+            "license_key": "lc-004",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 15,
+            "license_key": "lc-005",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 16,
+            "license_key": "lc-006",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 17,
+            "license_key": "lc-007",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 18,
+            "license_key": "lc-008",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 19,
+            "license_key": "lc-009",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        },
+        {
+            "id": 20,
+            "license_key": "lc-010",
+            "product_id": 523,
+            "variation_id": null,
+            "purchased_by_id": null,
+            "created_at": "2024-06-17T05:44:29.000000Z",
+            "status": 1,
+            "item_name": "Zantic Collage Magic",
+            "purchased_by": null
+        }
+    ],
+    "first_page_url": "",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 12,
+    "total": 12
+}

@@ -1,0 +1,35 @@
+name,short_description,description,type,unit,store_id,quantity,weight,price,sale_price,discount,sku,stock_status,meta_title,meta_description,is_free_shipping,is_featured,is_return,is_trending,is_sale_enable,is_random_related_products,is_external,external_button_text,external_url,sale_starts_at,sale_expired_at,shipping_days,show_stock_quantity,estimated_delivery_text,return_policy_text,safe_checkout,secure_checkout,social_share,encourage_order,encourage_view,is_approved,status,categories,tags,attributes,product_thumbnail_url,product_meta_image_url,size_chart_image_url,product_galleries,variations
+Radiant Red Bell Peppers," Fresh, vibrant red bell peppers packed with flavor and nutrients.","Enjoy the crispness and sweetness of these handpicked red bell peppers. Perfect for salads, stir-fries, and roasting, these peppers are rich in vitamins and antioxidants.",simple,pack,1,15,500,9,0,35,REDPAPER,in_stock,Radiant Red Bell Peppers ,"Enjoy the crispness and sweetness of these handpicked red bell peppers. Perfect for salads, stir-fries, and roasting, these peppers are rich in vitamins and antioxidants.",0,0,1,0,0,0,0,,,,,6,1,,,1,1,1,,,1,1,"1,2","1,2","1,7",https://5.imimg.com/data5/YO/LD/DW/SELLER-58341255/red-bell-pepper.jpg,https://5.imimg.com/data5/YO/LD/DW/SELLER-58341255/red-bell-pepper.jpg,,https://5.imimg.com/data5/LC/AV/OG/SELLER-11095020/fresh-red-bell-peppers.jpg,
+Salada Naturally Decaffeinated ,A delightful mix of juicy oranges and tangy grapefruits.,"Experience the perfect blend of sweetness and tanginess with this assortment of fresh oranges and grapefruits. Packed with vitamin C and antioxidants, these citrus fruits are ideal for juices, snacks, or as a refreshing addition to your recipes.",simple,pieces,1,20,100,10,0,45,ZESTY01,in_stock,Zesty Citrus Medley ,"Experience the perfect blend of sweetness and tanginess with this assortment of fresh oranges and grapefruits. Packed with vitamin C and antioxidants, these citrus fruits are ideal for juices, snacks, or as a refreshing addition to your recipes.",0,0,1,0,0,0,1,Buy on Amazon,https://www.amazon.com/Salada-Naturally-Decaffeinated-Original-Antioxidant/dp/B004PEESVE,,,7,1,,,1,1,1,,,1,1,"1,2","1,2","1,7",https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81BADzfBDbL._SL1500_.jpg,https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81BADzfBDbL._SL1500_.jpg,,"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81QA05ntjpL._SL1500_.jpg,https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/811C7ZilxYL._SL1500_.jpg",
+Premium Hass Avocado,Rich and creamy Hass avocados for versatile culinary use.," Indulge in the creamy texture and rich flavor of these premium Hass avocados. Known for their versatility, these avocados are perfect for guacamole, salads, sandwiches, or simply enjoyed on toast. Each variation offers avocados at different stages of ripeness.",classified,pieces,1,10,300,,,,AVOCADO01,in_stock,Premium Hass Avocado,"Indulge in the creamy texture and rich flavor of these premium Hass avocados. Known for their versatility, these avocados are perfect for guacamole, salads, sandwiches, or simply enjoyed on toast. Each variation offers avocados at different stages of ripeness.",0,1,1,1,0,1,0,,,,,5,1,,,1,1,1,,,1,1,"1,2","1,2","1,7",https://cdn.shopify.com/s/files/1/1575/0603/products/download_2233fb3d-7768-4f5d-b144-8f202a2aadff.jpg,https://cdn.shopify.com/s/files/1/1575/0603/products/download_2233fb3d-7768-4f5d-b144-8f202a2aadff.jpg,,"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51QEFmnhZRL.jpg,https://www.bigbasket.com/media/uploads/p/xxl/30009284_8-fresho-avocado-imported-medium.jpg https://www.bigbasket.com/media/uploads/p/l/10000312_19-fresho-avocado.jpg","[
+  {
+    ""name"": ""Approximately 2-4 kilograms"",
+    ""price"": 91,
+    ""quantity"": 16,
+    ""sku"": ""APIX11"",
+    ""variation_image_url"": ""https://www.bigbasket.com/media/uploads/p/l/30009284-2_2-fresho-avocado-imported-medium.jpg"",
+    ""sale_price"": 10,
+    ""discount"": 2,
+    ""stock_status"": ""in_stock"",
+    ""status"": ""1"",
+    ""attribute_values"": [
+      1,
+      2
+    ]
+  },
+  {
+    ""name"": ""Voluptas beatae repe"",
+    ""price"": 39,
+    ""quantity"": 28,
+    ""sku"": ""APIX10"",
+    ""variation_image_url"": ""https://www.bigbasket.com/media/uploads/p/l/40049413_4-fresho-avocado-organically-grown.jpg"",
+    ""sale_price"": 74,
+    ""discount"": 82,
+    ""stock_status"": ""in_stock"",
+    ""status"": ""1"",
+    ""attribute_values"": [
+      2,
+      1
+    ]
+  }
+]"

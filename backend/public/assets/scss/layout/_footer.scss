@@ -1,0 +1,35 @@
+/**=====================
+     Footer CSS Start
+==========================**/
+.footer {
+    background-color: $footer_bg_color;
+    box-shadow: $footer_box_shadow;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: calc(100vw - 320px);
+    z-index: 2;
+
+    @media (max-width: 1199px) {
+        width: calc(100vw - 260px);
+    }
+
+    @media (max-width: 991px) {
+        width: 100%;
+        right: 0;
+    }
+
+    &.footer-dark {
+        background-color: $footer_dark_color;
+
+        p {
+            color: $white;
+        }
+    }
+}
+
+.footer-fix {
+    width: calc(100% - 280px);
+    position: fixed;
+}

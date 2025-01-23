@@ -1,0 +1,28 @@
+{
+    "product": {
+        "total_products": 489,
+        "total_approved_products": 489,
+        "total_in_approved_products": 0
+    },
+    "store": {
+        "total_stores": 28,
+        "total_approved_stores": 28,
+        "total_in_approved_stores": 0
+    },
+    "refund": {
+        "total_refunds": 1,
+        "total_pending_refunds": 0,
+        "total_approved_refunds": 0,
+        "total_rejected_refunds": 1
+    },
+    "question_and_answer": {
+        "total_question_and_answers": 10,
+        "total_pending_question_and_answers": 0
+    },
+    "withdraw_request": {
+        "total_withdraw_requests": 0,
+        "total_pending_withdraw_requests": 0,
+        "total_approved_withdraw_requests": 0,
+        "total_rejected_withdraw_requests": 0
+    }
+}

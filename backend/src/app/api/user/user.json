@@ -1,0 +1,156 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": 34,
+            "name": "Rhoda Mayer",
+            "email": "rhoda@mail.com",
+            "country_code": "91",
+            "phone": 42116527,
+            "profile_image_id": null,
+            "system_reserve": "0",
+            "status": 1,
+            "created_by_id": 1,
+            "email_verified_at": null,
+            "created_at": "2024-06-24T07:26:45.000000Z",
+            "orders_count": 1,
+            "role": {
+                "id": 2,
+                "name": "consumer",
+                "guard_name": "web",
+                "system_reserve": "1"
+            },
+            "profile_image": null,
+            "wallet": {
+                "id": 5,
+                "consumer_id": 34,
+                "balance": 0
+            },
+            "point": {
+                "id": 6,
+                "consumer_id": 34,
+                "balance": 100
+            }
+        },
+        {
+            "id": 33,
+            "name": "Jack Doe",
+            "email": "jack.customer@gmail.com",
+            "country_code": "1",
+            "phone": 156963090,
+            "profile_image_id": null,
+            "system_reserve": "0",
+            "status": 1,
+            "created_by_id": 1,
+            "email_verified_at": null,
+            "created_at": "2024-06-21T12:48:51.000000Z",
+            "orders_count": 0,
+            "role": {
+                "id": 2,
+                "name": "consumer",
+                "guard_name": "web",
+                "system_reserve": "1"
+            },
+            "profile_image": null,
+            "wallet": {
+                "id": 4,
+                "consumer_id": 33,
+                "balance": 0
+            },
+            "point": {
+                "id": 5,
+                "consumer_id": 33,
+                "balance": 100
+            }
+        },
+        {
+            "id": 30,
+            "name": "Rhoda Mayer",
+            "email": "syzufizogo@mailinator.com",
+            "country_code": "971",
+            "phone": 4545454545,
+            "profile_image_id": null,
+            "system_reserve": "0",
+            "status": 1,
+            "created_by_id": 2,
+            "email_verified_at": null,
+            "created_at": "2024-06-15T07:00:18.000000Z",
+            "orders_count": 0,
+            "role": {
+                "id": 2,
+                "name": "consumer",
+                "guard_name": "web",
+                "system_reserve": "1"
+            },
+            "profile_image": null,
+            "wallet": {
+                "id": 3,
+                "consumer_id": 30,
+                "balance": 0
+            },
+            "point": {
+                "id": 4,
+                "consumer_id": 30,
+                "balance": 100
+            }
+        },
+        {
+            "id": 2,
+            "name": "john due",
+            "email": "john.customer@example.com",
+            "country_code": "1",
+            "phone": 65558845,
+            "profile_image_id": null,
+            "system_reserve": "0",
+            "status": 1,
+            "created_by_id": 1,
+            "email_verified_at": "2024-05-02T08:34:46.000000Z",
+            "created_at": "2024-05-02T08:34:46.000000Z",
+            "orders_count": 20,
+            "role": {
+                "id": 2,
+                "name": "consumer",
+                "guard_name": "web",
+                "system_reserve": "1"
+            },
+            "profile_image": null,
+            "wallet": {
+                "id": 2,
+                "consumer_id": 2,
+                "balance": 8.46
+            },
+            "point": {
+                "id": 3,
+                "consumer_id": 2,
+                "balance": 1970
+            }
+        }
+    ],
+    "first_page_url": "",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "",
+    "per_page": 15,
+    "prev_page_url": null,
+    "to": 4,
+    "total": 4
+}

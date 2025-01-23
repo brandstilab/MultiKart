@@ -1,0 +1,95 @@
+========================
+Theme Version 3.3.6 Updates(18/01/24)
+=========================
+Update : Node updated node_18 to node_20
+Update : Updated ReactJs Admin To NextJs
+
+========================
+Theme Version 3.3.5 Updates(04/09/23)
+=========================
+Update : Theme node_17 to node_18
+
+========================
+Theme Version 3.3.4 Updates(14/12/22)
+=========================
+Update : Remove the firebase.
+
+========================
+Theme Version 3.3.3 Updates(26/07/22)
+=========================
+Update : convert admin to node 16
+Fixed : solve some designing issue
+Fixed : solve console error
+Update : theme and admin in bootstrap 5
+
+========================
+Theme Version 3.3.2 Updates(22/06/22)
+=========================
+Update : convert to node 16 version
+
+========================
+Theme Version 3.3.1 Updates(03/04/21)
+=========================
+
+Update : Frotend Optimize code by reusing component,
+Fixed : solve some designing issue
+Fixed : resolve some small bug
+Update : theme in hook as well as in reactstrap
+
+
+========================
+Theme Version 3.3.0 Updates(21/1/21)
+=========================
+Added : 30+ demos
+Added : unlimited color option
+Added : skeleton loader
+Added : Manage complete theme product from graphql 
+Added : userfriendly url in filter page and many more..
+Added : next.js(server side rendering) version
+
+
+========================
+Theme Version 3.2.1 Updates
+=========================
+Update : updated document
+
+========================
+Theme Version 3.2 Updates
+=========================
+Added  : Portfolio pages.
+
+========================
+Theme Version 3.1 Updates
+=========================
+Added  : backend RTL version
+
+========================
+Theme Version 3.0 Updates
+=========================
+Added  : backend 
+Fixed  : Converted No jQuery to ReactJs 
+
+========================
+Theme Version 2.0 Updates
+=========================
+Added: 7 layout
+Added: SEO Friendly
+Added: ThemeSettings
+Added: Dark Version
+Added: Full Width Collection
+Added: Metro Collection
+Added: Theme Elements 
+Added: Product Elements
+
+========================
+Theme Version 1.2 Updates
+=========================
+Fixed: Header & checkout design responsive issue solved
+========================
+Theme Version 1.1 Updates
+=========================
+Fixed: Design Bugs solved 
+Fixed: Converted maximum jQuery to ReactJs
+========================
+Inital Version : 28/12/18
+=========================
